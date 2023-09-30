@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>It's A Survey!</title>
+</head>
+
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">This is a survey. Please take it.</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Your Name" required></label>
+    <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Your Email" required></label>
+    <label for="number" id="number-label"> Rate this survey (0-10): <input type="number" id="number" placeholder="10" min="0" max="10"></label>
+    <label for ="dropdown">How likely are you to recommend this survey:
+      <select id="dropdown">
+        <option>Very</option>
+        <option>Yes</option>
+      </select>
+    </label>
+    <fieldset>
+      <legend>Can we sell your information?</legend>
+    <label for="yes-radio"><input type="radio" id="yes-radio" name="sell" value="yes">Yes</label>
+    <label for="also-yes-radio"><input type="radio" id="also-yes-radio" name="sell" value="also-yes">Also, yes</label>
+    </fieldset>
+    <fieldset>
+      <legend>How did you hear about us?</legend>
+    <label for="social-media"><input type="checkbox" id="social-media" value="social-media">Social Media</label>
+    <label for="dreams"><input type="checkbox" id="dreams" value="dreams">My Dreams</label>
+    </fieldset>
+    <fieldset>
+    <label for="comments">Additional Comments:</label>
+      <textarea id="comments" rows="10" cols="40"></textarea>
+    
+    </fieldset>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</body>
+</html>

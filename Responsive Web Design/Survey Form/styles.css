@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom, rgb(30, 40, 100), rgb(0, 0, 30));
+    font-family: Arial;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    margin: 0 auto;
+  }
+  
+  form {
+    background: linear-gradient(to bottom, #113, #11113300);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+  
+  input, textarea, select {
+    margin: 10px 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;  
+  }
+  
+  input, select {
+    height: 25px;
+  }
+  
+  fieldset {
+    margin: 10px 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  fieldset label {
+    margin: 3px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin: 0px 5px;
+    padding: 0px;
+    margin-top: -2px;
+    vertical-align: middle;
+    height: 100%;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: -3px;
+  }
